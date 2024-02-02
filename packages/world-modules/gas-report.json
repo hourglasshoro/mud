@@ -72,6 +72,48 @@
     "gasUsed": 136916
   },
   {
+    "file": "test/ERC1155.t.sol",
+    "test": "testApproveAllGas",
+    "name": "setApprovalForAll",
+    "gasUsed": 93510
+  },
+  {
+    "file": "test/ERC1155.t.sol",
+    "test": "testBatchBurnGas",
+    "name": "burnBatch",
+    "gasUsed": 72531
+  },
+  {
+    "file": "test/ERC1155.t.sol",
+    "test": "testBatchMintGas",
+    "name": "mintBatch",
+    "gasUsed": 148993
+  },
+  {
+    "file": "test/ERC1155.t.sol",
+    "test": "testBurnGas",
+    "name": "burn",
+    "gasUsed": 53280
+  },
+  {
+    "file": "test/ERC1155.t.sol",
+    "test": "testMintGas",
+    "name": "mint",
+    "gasUsed": 107718
+  },
+  {
+    "file": "test/ERC1155.t.sol",
+    "test": "testSafeBatchTransferFromToEOAGas",
+    "name": "safeBatchTransferFrom",
+    "gasUsed": 144335
+  },
+  {
+    "file": "test/ERC1155.t.sol",
+    "test": "testSafeTransferFromToEOAGas",
+    "name": "safeTransferFrom",
+    "gasUsed": 88725
+  },
+  {
     "file": "test/KeysInTableModule.t.sol",
     "test": "testInstallComposite",
     "name": "install keys in table module",
