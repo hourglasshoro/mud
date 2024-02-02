@@ -22,3 +22,7 @@ import { Owners } from "./modules/erc721-puppet/tables/Owners.sol";
 import { TokenApproval } from "./modules/erc721-puppet/tables/TokenApproval.sol";
 import { OperatorApproval } from "./modules/erc721-puppet/tables/OperatorApproval.sol";
 import { ERC721Registry } from "./modules/erc721-puppet/tables/ERC721Registry.sol";
+import { ERC1155Balances } from "./modules/erc1155-puppet/tables/ERC1155Balances.sol";
+import { ERC1155MetadataURI } from "./modules/erc1155-puppet/tables/ERC1155MetadataURI.sol";
+import { ERC1155OperatorApproval } from "./modules/erc1155-puppet/tables/ERC1155OperatorApproval.sol";
+import { ERC1155Registry } from "./modules/erc1155-puppet/tables/ERC1155Registry.sol";
