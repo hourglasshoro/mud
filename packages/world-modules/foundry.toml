@@ -9,6 +9,7 @@ allow_paths = ["../../node_modules", "../"]
 src = "src"
 out = "out"
 bytecode_hash = "none"
+via_ir = true
 extra_output_files = [
   "abi",
   "evm.bytecode"
