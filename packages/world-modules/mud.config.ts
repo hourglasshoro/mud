@@ -241,6 +241,51 @@ export default mudConfig({
       },
       tableIdArgument: true,
     },
+    /************************************************************************
+     *
+     *    ERC1155 MODULE
+     *
+     ************************************************************************/
+    ERC1155Balances: {
+      directory: "modules/erc1155-puppet/tables",
+      keySchema: {
+        id: "uint256",
+        account: "address",
+      },
+      valueSchema: {
+        value: "uint256",
+      },
+      tableIdArgument: true,
+    },
+    ERC1155MetadataURI: {
+      directory: "modules/erc1155-puppet/tables",
+      keySchema: {},
+      valueSchema: {
+        uri: "string",
+      },
+      tableIdArgument: true,
+    },
+    ERC1155OperatorApproval: {
+      directory: "modules/erc1155-puppet/tables",
+      keySchema: {
+        owner: "address",
+        operator: "address",
+      },
+      valueSchema: {
+        approved: "bool",
+      },
+      tableIdArgument: true,
+    },
+    ERC1155Registry: {
+      directory: "modules/erc1155-puppet/tables",
+      keySchema: {
+        namespaceId: "ResourceId",
+      },
+      valueSchema: {
+        tokenAddress: "address",
+      },
+      tableIdArgument: true,
+    },
   },
-  excludeSystems: ["UniqueEntitySystem", "PuppetFactorySystem", "ERC20System", "ERC721System"],
+  excludeSystems: ["UniqueEntitySystem", "PuppetFactorySystem", "ERC20System", "ERC721System", "ERC1155System"],
 });
